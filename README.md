@@ -1,22 +1,24 @@
-Magnet Bridge
+# Magnet Bridge
 
-Turn Stremio Android streams into real BitTorrent magnet links and ".torrent" files.
+**[Visit the Magnet Bridge website](https://magnetbridge-stremio-stream-to-magnet-apk-hub.ai.studio/) · [Download the latest APK](https://github.com/leffmarques/MagnetBridge/releases)**
 
-Magnet Bridge is an Android companion app designed to work as an external player handler for Stremio.
+**Turn Stremio Android streams into real BitTorrent magnet links and `.torrent` files.**
 
-When Stremio Android sends a local HTTP stream URL instead of a magnet link, Magnet Bridge intercepts it, extracts the torrent infohash, retrieves the available torrent metadata, and provides options to open the magnet link in a torrent client or save a real ".torrent" file.
+Magnet Bridge is an Android companion app designed to work as an external player handler for **Stremio**.
 
-Features
+When Stremio Android sends a local HTTP stream URL instead of a magnet link, Magnet Bridge intercepts it, extracts the torrent infohash, retrieves the available torrent metadata, and provides options to open the magnet link in a torrent client or save a real `.torrent` file.
 
-- Stremio integration — works as an external player handler on Android.
-- Magnet link extraction — extracts the BitTorrent infohash from Stremio's local stream URL.
-- Torrent metadata discovery — retrieves available metadata for the torrent.
-- Torrent information — displays the infohash, total size, piece information, file list, and identified trackers.
-- Save ".torrent" file — generates and saves a real torrent metadata file.
-- Open with your torrent client — sends the magnet link to an installed torrent client.
-- Copy magnet link — copies the generated magnet URI to the clipboard.
+## Features
 
-Why Magnet Bridge?
+- **Stremio integration** — works as an external player handler on Android.
+- **Magnet link extraction** — extracts the BitTorrent infohash from Stremio's local stream URL.
+- **Torrent metadata discovery** — retrieves available metadata for the torrent.
+- **Torrent information** — displays the infohash, total size, piece information, file list, and identified trackers.
+- **Save `.torrent` file** — generates and saves a real torrent metadata file.
+- **Open with your torrent client** — sends the magnet link to an installed torrent client.
+- **Copy magnet link** — copies the generated magnet URI to the clipboard.
+
+## Why Magnet Bridge?
 
 Stremio on desktop can pass magnet links directly to external applications. On Android, however, external player integrations may receive a local HTTP URL served by Stremio instead.
 
@@ -24,21 +26,21 @@ This can cause problems when using download managers or torrent clients that exp
 
 Magnet Bridge acts as the bridge between these two formats, allowing Android users to work with the original torrent instead of treating the local stream URL as a regular HTTP download.
 
-How to use
+## How to use
 
 1. Install Magnet Bridge on your Android device.
 2. Open Stremio and go to the external player settings.
-3. Select Magnet Bridge as your external player.
+3. Select **Magnet Bridge** as your external player.
 4. Start playing a torrent-based stream in Stremio.
 5. When Android opens Magnet Bridge, wait for the torrent metadata to become available.
 6. Choose one of the available actions:
-   - Save Real ".torrent" File
-   - Open in Torrent Client (Magnet)
-   - Copy Magnet Link
+   - **Save Real `.torrent` File**
+   - **Open in Torrent Client (Magnet)**
+   - **Copy Magnet Link**
 
 A compatible torrent client must be installed to open magnet links.
 
-How it works
+## How it works
 
 1. Stremio sends a local stream URL to the selected external player.
 2. Magnet Bridge extracts the torrent's v1 infohash.
@@ -47,19 +49,19 @@ How it works
 
 Magnet Bridge does not act as a video player or torrent download client. It prepares the torrent information and hands the magnet link over to your preferred torrent client.
 
-Download
+## Download
 
-Get the latest Android APK from the "GitHub Releases" (https://github.com/leffmarques/MagnetBridge/releases) page.
+Get the latest Android APK from the [GitHub Releases](https://github.com/leffmarques/MagnetBridge/releases) page.
 
-You can also visit the "Magnet Bridge website" (https://magnetbridge-stremio-stream-to-magnet-apk-hub.ai.studio/).
+You can also visit the [Magnet Bridge website](https://magnetbridge-stremio-stream-to-magnet-apk-hub.ai.studio/).
 
-Compatibility
+## Compatibility
 
 - Android devices
 - Stremio for Android
 - An installed torrent client for opening magnet links
 
-Disclaimer
+## Disclaimer
 
 Magnet Bridge is an independent project and is not affiliated with, endorsed by, or officially associated with Stremio.
 
@@ -67,4 +69,4 @@ This application does not host, provide, or distribute torrent content. Users ar
 
 ---
 
-Magnet Bridge — connecting Stremio streams to the BitTorrent ecosystem.
+**Magnet Bridge** — connecting Stremio streams to the BitTorrent ecosystem.
