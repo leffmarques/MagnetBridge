@@ -21,7 +21,7 @@ When Stremio Android sends a local HTTP stream URL instead of a magnet link, Mag
 ## Screenshots
 
 <p align="center">
-  <img src="assets/screenshot-v0.8.jpg" width="360" alt="Magnet Bridge v0.8 showing torrent metadata and available actions">
+  <img src="assets/screenshot-v0.8.png" width="360" alt="Magnet Bridge v0.8 showing torrent metadata and available actions">
 </p>
 
 ## Features
