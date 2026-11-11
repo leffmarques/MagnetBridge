@@ -1,0 +1,6 @@
+{
+  "name": "MagnetBridge - Stremio Stream to Magnet & APK Hub",
+  "description": "Converta links de streaming externos do Stremio em magnet links BitTorrent e baixe ou compile o APK Magnet Bridge para Android.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
