@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.stremiomagnetbridge.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.stremiomagnetbridge.app'
+        minSdk 21
+        targetSdk 34
+        versionCode 8
+        versionName '0.8.0'
+    }
+}

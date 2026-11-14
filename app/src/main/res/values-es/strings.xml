@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Magnet Bridge</string>
+    <string name="brand_header">MAGNET BRIDGE 0.9 · GENERADOR DE .TORRENT</string>
+    <string name="dashboard_title">Stremio External Player Bridge</string>
+    <string name="dashboard_subtitle">Extrae InfoHash, obtén metadatos (BEP 9) y genera archivos .torrent reales.</string>
+    <string name="how_it_works_title">CÓMO FUNCIONA EN STREMIO:</string>
+    <string name="how_it_works_steps">1. En Stremio, pulsa \'Reproductor Externo\' en cualquier película\n2. Selecciona \'Magnet Bridge\'\n3. La app entra en estado SEARCHING buscando metadatos vía DHT\n4. En METADATA RETRIEVED muestra la lista de archivos y piezas\n5. En READY puedes abrir el Magnet o Guardar el archivo .torrent!</string>
+    <string name="manual_input_label">PROBAR O PEGAR UN ENLACE DE STREAMING:</string>
+    <string name="convert_btn">BUSCAR METADATOS Y GENERAR .TORRENT</string>
+    <string name="paste_sample_btn">Pegar Ejemplo de Stream de Stremio</string>
+    <string name="toast_invalid_empty">Introduce un enlace de streaming válido de Stremio.</string>
+    <string name="error_no_infohash">No se pudo encontrar un InfoHash de 40 caracteres en el enlace proporcionado.</string>
+    <string name="torrent_detected">Torrent Detectado</string>
+    <string name="state_ready">READY · DISPONIBLE</string>
+    <string name="state_searching">SEARCHING (BUSCANDO PEERS / BEP 9)...</string>
+    <string name="state_retrieved">METADATA RETRIEVED</string>
+    <string name="state_fallback">ALTERNATIVA (FLUJO STREMIO)</string>
+    <string name="fallback_banner">⚠️ La búsqueda DHT tardó demasiado. Se activó la alternativa generando metadatos desde el flujo local de Stremio para guardar el .torrent sin bloqueos.</string>
+    <string name="label_infohash">INFOHASH (SHA-1 v1):</string>
+    <string name="label_total_size">TAMAÑO TOTAL:</string>
+    <string name="label_pieces">PIEZAS:</string>
+    <string name="label_file_list">LISTA DE ARCHIVOS EN EL TORRENT (%1$d):</string>
+    <string name="label_trackers">TRACKERS IDENTIFICADOS (%1$d):</string>
+    <string name="btn_save_torrent">💾 GUARDAR ARCHIVO .TORRENT REAL</string>
+    <string name="btn_open_magnet">🧲 ABRIR EN CLIENTE TORRENT (MAGNET)</string>
+    <string name="btn_copy_magnet">COPIAR ENLACE MAGNET</string>
+    <string name="btn_test_another">Probar Otro Enlace de Stremio</string>
+    <string name="toast_saved_downloads">Archivo guardado en Descargas: %1$s</string>
+    <string name="share_text_prefix">Torrent generado por Magnet Bridge: %1$s</string>
+    <string name="share_chooser_title">Compartir o Abrir .torrent generado</string>
+    <string name="toast_save_error">Error al generar archivo .torrent: %1$s</string>
+    <string name="magnet_chooser_title">Abrir enlace magnet con cliente torrent</string>
+    <string name="toast_no_torrent_client">No se encontró un cliente torrent compatible (instala LibreTorrent o Flud).</string>
+    <string name="toast_copied">¡Enlace magnet copiado al portapapeles!</string>
+    <string name="engine_searching">Buscando peers y solicitando metadatos vía DHT (BEP 9)...</string>
+    <string name="engine_retrieved">Metadatos recuperados con éxito (%1$s)</string>
+    <string name="engine_ready">Listo: Opciones de Magnet y Archivo .torrent disponibles</string>
+    <string name="engine_fallback">DHT no respondió a tiempo. Alternativa lista con metadatos del flujo Stremio.</string>
+    <string name="source_stremio_local">Motor Local de Stremio (127.0.0.1:11470)</string>
+    <string name="source_bep9_cache">BEP 9 / Caché de Pasarela</string>
+    <string name="source_fallback">Síntesis de Metadatos del Stream (Alternativa Segura)</string>
+    <string name="subtitles_path">Subtitles/Espanol.srt</string>
+</resources>
